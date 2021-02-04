@@ -1,0 +1,16 @@
+org: amzyaji
+app: my-node-rest-api-app
+service: my-node-rest-api-app
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+
+functions:
+  condition:
+    handler: handler.condition
+    events:
+      - http:
+          path: /api/condition
+          method: get
+          cors: true
