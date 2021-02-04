@@ -28,7 +28,11 @@ if the description is missing, replace it with content "Contents were not found 
 Installation:
 
 Git clone to local, in Terminal or Visual Studio Code, use following command:
+
+
 npm install
+
 npm start
+
 
 Demo: https://www.youtube.com/watch?v=1sAbVnrWAOU&feature=youtu.be
